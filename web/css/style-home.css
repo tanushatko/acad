@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:300,400,600,700');
+
+
+.home{
+    background:  url("../img/home/bg.png"), url("../img/home/hm1.png") 50% no-repeat;
+    background-size: cover;
+}
+.home-logo{
+    float: left;
+    font-family: 'Montserrat';
+    color:  #60606e;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+.home-menuicon:active, .home-menuicon:focus { outline: none; }
+.home-logo:hover{
+    color:  #60606e;
+    opacity: 0.8;
+}
+
+.home-menu{
+    float:right;
+    text-align: right;
+}
+.home-menuicon{
+    width:31px;
+    float:right !important;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.home-menuicon:hover {
+    opacity: 0.8;
+
+}
+.home-menu a{
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    color:  #60606e;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: right;
+}
+.home-menu a:hover{
+    color:  #60606e;
+    opacity: 0.8;
+
+}
+.home-top{
+    margin-bottom: 125px;
+}
+.home-title{
+    background-color:  #7beec7;
+    font-family: Montserrat;
+    color:  #60606e;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    padding: 0;
+}
+.home-title2{
+    border-style: solid;
+    border-width: 10px;
+    border-color:  #60606e;
+    box-sizing: border-box;
+    background-color:  rgba(96, 96, 110, 0);
+    font-family: Montserrat;
+    color:  #60606e;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.home-title3{
+    font-family: 'Open Sans';
+    color:  #60606e;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 125px;
+}
+.home-history{
+    margin-bottom: 50px;
+}
+.home-pic{
+    top: 80px;
+    padding: 0;
+    display: block;
+}
+.home-history{
+    font-family: Montserrat;
+    color:  #60606e;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+.home-caption{
+    float: right;
+    top:90px;
+    margin: 0;
+    font-family: 'Open Sans';
+    color:  #60606e;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+.history-button{
+    background-color:  #7beec7;
+    font-family: Montserrat;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    float:right;
+    margin-top:30px;
+    cursor: pointer;
+}
+.history-button:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+
+}
+.about{
+    padding: 80px  0;
+}
+.page-title{
+    font-family: Montserrat;
+    color:  #60606e;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-top: 70px;
+}
+.page-title1{
+    font-family: 'Open Sans';
+    color:  #60606e;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.about-descr{
+    float: left;
+    margin-bottom: 40px;
+}
+.about-pic{
+    display: block;
+    float:left;
+    margin-bottom: 60px;
+}
+.about-ul{
+    display: block;
+    float:left;
+    list-style-type: none;
+    margin: 0 0 40px;
+    padding: 0;
+    font-family: 'Open Sans';
+    color:  #999999;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+.about-ul-title{
+    font-family: Montserrat;
+    color:  #60606e;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.about-ul-title:hover{
+    opacity: 0.8;
+}
+.portfolio{
+    clear: both;
+    padding: 40px  0;
+    overflow: hidden;
+}
+.portfolio-title{
+    font-family: Montserrat;
+    color:  #60606e;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+
+}
+.filtr{
+    width:33.33%;
+    float:left;
+}
+.button{
+    padding: 0 10px !important;
+    margin-left: 10px !important;
+    margin-bottom: 5px;
+    display: block;
+    font-family: Montserrat;
+    color:  #60606e;
+    font-size: 14px;
+    font-weight: 700;
+
+    line-height: 24px;
+    text-align: left;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.is-checked{
+    background: #7beec7;
+    color: #fff;
+    margin-left: 0px !important;
+
+}
+.button:active, .button:focus {
+    outline: none;
+}
+.element-item, .grid-sizer{
+    width:33.33%;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+@media only screen and (max-width: 600px) {
+    .grid, .filtr{
+        width:100% !important;
+        float:none;
+        text-align: center;
+    }
+    .portfolio-title{
+        text-align: center;
+    }
+    .button{
+        font-size: 20px;
+        width: 100% !important;
+        text-align: center;
+        margin-left: 0 !important;
+    }
+    .element-item{
+        width: 80% !important;
+        position: unset !important;
+        margin: 0 auto !important;
+        margin-bottom: 10px !important;
+
+        display:block;
+    }
+}
+.grid{
+    width: 66.66%;
+    float:left;
+}
+.contact{
+    background: #7beec7;
+    overflow: hidden;
+}
+.contact-title{
+    float: left;
+    font-family: Montserrat;
+    color:  #ffffff;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+    padding-top: 50px;
+}
+.contact-button{
+    margin: 20px 0 0 0;
+    background: #ffffff;
+    font-family: Montserrat;
+    color:  #7beec7;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+.contact-button:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+.email{
+    background: #ffffff;
+    float: left;
+    margin: 55px 0;
+    padding:10px 0;
+
+}
+.email-title{
+    font-family: Montserrat;
+    color:  #60606e;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+
+}
+.email-title1{
+    font-family: 'Open Sans';
+    color:  #999999;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.contact-email{
+    box-sizing: border-box;
+    font-family: Montserrat;
+    color:  #cdcdcd;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    border:none;
+    margin: 0 !important;
+    padding: 0 10px!important;
+    height: 50px;
+
+}
+.contact-form{
+    margin: 0 0 10px 0 !important;
+    padding: 0 !important;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #999999;
+}
+.contact-submit{
+    box-sizing: border-box;
+    float:right;
+    border: none;
+    font-family: Montserrat;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 48px;
+    background-color:  #7beec7;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0 !important;
+    height: 50px;
+}
+.contact-submit:active, .contact-submit:focus, .contact-email:active, .contact-email:focus{
+    outline: none;
+}
+.contact-submit:hover{
+    opacity: 0.8;
+}
+.contact-email input[placeholder]          {color:  #cdcdcd;}
+.contact-email input::-moz-placeholder     {color:  #cdcdcd;}
+.contact-email input:-moz-placeholder      {color:  #cdcdcd;}
+.contact-email input:-ms-input-placeholder {color:  #cdcdcd;}
+.footer, navbar{
+    background: white !important;
+    margin: 0;
+}
+.footer{
+    padding: 25px 0;
+}
+.nav-item, .nav-item a{
+    font-family: 'Open Sans';
+    color:  #9a9a9a !important;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0 2px ;
+}
+.navbar-foot{
+    float: left;
+    padding: 0 !important;
+}
+.copyright{
+    font-family: 'Open Sans';
+    color:  #9a9a9a;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: right;
+    float: left;
+    margin: 0;
+}
+.fonts-item {
+    padding-left: 10px;
+    color:  #999999 !important;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: right;
+}
+.fonts-item:hover{
+    opacity: 0.8;
+    color: #7beec7 !important;
+
+}
+.fonts{
+    float: right;
+    margin-top: 10px;
+    text-align: right;
+}
